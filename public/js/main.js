@@ -1,6 +1,6 @@
 var currentUser;
 var gifChat = false; // set this to true to disable gif chat in favor of regular messaging
-var ref = new Firebase("https://< CHANGE TO YOUR OWN FIREBASE URL>.firebaseio.com/");
+var ref = new Firebase("https://acmchatapp.firebaseio.com/");
 
 // initial page load
 $(document).ready(function() {
